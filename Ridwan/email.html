@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification - Tax Calculator</title>
+    <link rel="stylesheet" href="email.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..    32,100..900;1,14..32,100..900&family=Lexend+Deca:wgth@100...900&display=swap" rel="stylesheet">
+    
+    
+  
+</head>
+<body>
+    <div id="container">
+        <div>
+        <img src="../assets/images/taxpal.jpeg" alt="tax logo">
+    </div>
+        <div class="header">
+            <h2>
+                Email Verification 
+            </h2>
+            <p>
+                we've sent a 6-digit to <span id="user-email"></span>
+            </p>
+        </div>
+        <div class="otp">
+            <input maxlength="1">
+             <input maxlength="1">
+              <input maxlength="1">
+               <input maxlength="1">
+                <input maxlength="1">
+                 <input maxlength="1">
+        </div>
+
+        <button type="submit" id="verifyBtn">Verify</button>
+        <p class="error" id="otpError"></p>
+        
+
+            
+
+        
+
+        <p>
+            Didn't receive the code? 
+                <a href="#" id="resend code">Resend code</a> 
+        </p>
+
+    </div>
+            
+            <script src="email.js"></script>
+            
+</body>
+</html>

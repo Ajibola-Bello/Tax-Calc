@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: white; 
+     padding-top: 12px;
+     /* text-align: center; */
+     /* min-height: 100vh; */
+     font-family:"inter", sans-serif ;
+    
+}
+
+
+#container {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    width: 360px;
+    height: 620px; 
+    margin: auto;
+    background-color:white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-top:50px;
+    
+}
+
+
+
+
+
+ h2 {
+    margin-top: 20px;
+    font-size:24px;
+    line-height: 32px;
+    font-weight: 600(semi-bold);
+    
+}
+
+p{
+    margin: 10px;
+     /* font-size: 18px; */
+    line-height: 26px; 
+    font-weight: 600(semi bold);
+    
+                               
+}
+button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+   /* background-color: gray; */
+    background-color: greenyellow;
+   color:white;
+   border-radius: 12px;
+}
+
+button:hover{
+  
+   background-color: gray;
+   transition:all 0.4s ease;
+   cursor: pointer;
+   }
+
+.otp input {
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align:center;
+    
+}
+
+.otp input:focus {
+    border-color: #1dbb1d;
+}
+
+
+#verifyBtn {
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #1dbb1d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+#verifyBtn:hover {
+    background-color: gray;
+   transition:all 0.4s ease;
+   cursor: pointer;
+}
+
+
+.error {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    #container {
+        min-height: auto;
+        padding: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+  /*  p {
+        font-size: 13px;
+        text-align: center;*/
+    }
+
+    .otp {
+        gap: 6px;
+    }
+
+    .otp input {
+        width: 38px;
+        height: 44px;
+        font-size: 16px;
+    }
